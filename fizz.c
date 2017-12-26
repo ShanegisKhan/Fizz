@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
   int i, count;
 
   if(argc < 2) {
-    printf("You need 2 argument\n");
+    printf("You need 2 arguments\n");
     exit(1);
   }
   count = atoi(argv[1]);
